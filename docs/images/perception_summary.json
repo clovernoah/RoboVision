@@ -1,0 +1,163 @@
+{
+  "street_traffic.jpg": {
+    "tasks": [
+      "detect",
+      "depth"
+    ],
+    "counts": {
+      "person": 5,
+      "vehicle": 9,
+      "face": 0
+    },
+    "timings_ms": {
+      "detect": 1375.78,
+      "depth": 319.26,
+      "fusion": 1.82,
+      "total": 1696.88
+    },
+    "suggestion": {
+      "action": "forward",
+      "action_label": "保持前进",
+      "reason": "前方相对开阔，可保持前进"
+    },
+    "outputs": [
+      "detection_street.png",
+      "depth_street.png",
+      "fusion_street.png"
+    ]
+  },
+  "street_pedestrian.jpg": {
+    "tasks": [
+      "detect"
+    ],
+    "counts": {
+      "person": 0,
+      "vehicle": 7,
+      "face": 0
+    },
+    "timings_ms": {
+      "detect": 33.58,
+      "total": 33.59
+    },
+    "suggestion": null,
+    "outputs": [
+      "detection_pedestrian.png"
+    ]
+  },
+  "bus.jpg": {
+    "tasks": [
+      "detect"
+    ],
+    "counts": {
+      "person": 0,
+      "vehicle": 1,
+      "face": 0
+    },
+    "timings_ms": {
+      "detect": 18.29,
+      "total": 18.29
+    },
+    "suggestion": null,
+    "outputs": [
+      "detection_bus.png"
+    ]
+  },
+  "cars.jpg": {
+    "tasks": [
+      "detect"
+    ],
+    "counts": {
+      "person": 0,
+      "vehicle": 2,
+      "face": 0
+    },
+    "timings_ms": {
+      "detect": 19.15,
+      "total": 19.15
+    },
+    "suggestion": null,
+    "outputs": [
+      "detection_cars.png"
+    ]
+  },
+  "portrait.jpg": {
+    "tasks": [
+      "face"
+    ],
+    "counts": {
+      "person": 0,
+      "vehicle": 0,
+      "face": 1
+    },
+    "timings_ms": {
+      "face": 107.32,
+      "total": 107.33
+    },
+    "suggestion": null,
+    "outputs": [
+      "face_portrait.png"
+    ]
+  },
+  "group.jpg": {
+    "tasks": [
+      "face"
+    ],
+    "counts": {
+      "person": 0,
+      "vehicle": 0,
+      "face": 8
+    },
+    "timings_ms": {
+      "face": 56.16,
+      "total": 56.17
+    },
+    "suggestion": null,
+    "outputs": [
+      "face_group.png"
+    ]
+  },
+  "students.jpg": {
+    "tasks": [
+      "face"
+    ],
+    "counts": {
+      "person": 0,
+      "vehicle": 0,
+      "face": 3
+    },
+    "timings_ms": {
+      "face": 60.47,
+      "total": 60.48
+    },
+    "suggestion": null,
+    "outputs": [
+      "face_students.png"
+    ]
+  },
+  "city_street.jpg": {
+    "tasks": [
+      "detect",
+      "depth"
+    ],
+    "counts": {
+      "person": 0,
+      "vehicle": 1,
+      "face": 0
+    },
+    "timings_ms": {
+      "detect": 29.86,
+      "depth": 49.02,
+      "fusion": 2.04,
+      "total": 80.93
+    },
+    "suggestion": {
+      "action": "forward",
+      "action_label": "保持前进",
+      "reason": "前方相对开阔，可保持前进"
+    },
+    "outputs": [
+      "depth_city.png",
+      "fusion_city.png"
+    ]
+  }
+}

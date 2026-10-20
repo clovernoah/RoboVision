@@ -1,0 +1,26 @@
+# 模型权重（体积较大，可随时重新下载）
+models/*.pt
+models/*.onnx
+models/*.pth
+models/*.part
+
+# 训练与评估产物
+runs/*
+!runs/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.log
+
+# 编辑器 / 本地工具配置
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+.DS_Store

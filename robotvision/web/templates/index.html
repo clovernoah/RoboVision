@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoboVision · 智能机器人感知与决策</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2334d399'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%230b0f14'/%3E%3C/svg%3E">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M20 3 35 11.5v17L20 37 5 28.5v-17L20 3Z" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="20" cy="20" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="20" cy="20" r="2.3" fill="currentColor"/>
+        </svg>
+      </div>
+      <div>
+        <strong>RoboVision</strong>
+        <span>多任务感知 · 自主决策</span>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <button class="nav-item active" data-view="overview">
+        <span class="nav-icon">◈</span><span>系统概览</span>
+      </button>
+      <button class="nav-item" data-view="detect">
+        <span class="nav-icon">▣</span><span>目标检测</span>
+      </button>
+      <button class="nav-item" data-view="face">
+        <span class="nav-icon">◉</span><span>人脸检测</span>
+      </button>
+      <button class="nav-item" data-view="depth">
+        <span class="nav-icon">◐</span><span>深度估计</span>
+      </button>
+      <button class="nav-item" data-view="decision">
+        <span class="nav-icon">⌁</span><span>机器人决策</span>
+      </button>
+    </nav>
+
+    <div class="sidebar-foot">
+      <div class="mini-stat"><span>版本</span><b>{{ version }}</b></div>
+      <div class="mini-stat"><span>课程</span><b>智能机器人技术</b></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <h1 id="page-title">系统概览</h1>
+        <p id="page-sub">行人 / 车辆 / 人脸检测 · 单目深度估计 · 深度强化学习决策</p>
+      </div>
+      <div class="health" id="health-pill">
+        <span class="dot" id="health-dot"></span>
+        <span id="health-text">正在检查模型…</span>
+      </div>
+    </header>
+
+    <!-- ============================ 概览 ============================ -->
+    <section class="view active" id="view-overview">
+      <div class="hero card">
+        <div class="hero-copy">
+          <div class="eyebrow">INTELLIGENT ROBOT VISION</div>
+          <h2>让机器人<span class="accent">看见</span>、<span class="accent">理解</span>并<span class="accent">行动</span></h2>
+          <p>一套面向服务机器人的多任务视觉系统：YOLOv8 检测行人车辆，YuNet 定位人脸，MiDaS 估计单目深度，
+            并通过 Double DQN 在动态栅格环境中学习自主导航策略。</p>
+          <div class="hero-actions">
+            <button class="btn primary" data-goto="detect">开始感知分析</button>
+            <button class="btn ghost" data-goto="decision">进入决策仿真</button>
+          </div>
+          <div class="tags">
+            <span>YOLOv8n</span><span>YuNet</span><span>MiDaS-small</span><span>Double DQN</span><span>Flask</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="scan-frame">
+            <div class="scan-line"></div>
+            <div class="corner tl"></div><div class="corner tr"></div>
+            <div class="corner bl"></div><div class="corner br"></div>
+            <svg viewBox="0 0 320 240" aria-hidden="true">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#34d399" stop-opacity=".85"/>
+                  <stop offset="1" stop-color="#38bdf8" stop-opacity=".25"/>
+                </linearGradient>
+              </defs>
+              <rect x="30" y="96" width="80" height="104" rx="6" fill="none" stroke="url(#g1)" stroke-width="2"/>
+              <rect x="130" y="70" width="58" height="130" rx="6" fill="none" stroke="url(#g1)" stroke-width="2"/>
+              <rect x="206" y="108" width="86" height="66" rx="6" fill="none" stroke="url(#g1)" stroke-width="2"/>
+              <text x="34" y="90" fill="#34d399" font-size="9" font-family="monospace">person 0.94</text>
+              <text x="134" y="64" fill="#34d399" font-size="9" font-family="monospace">person 0.88</text>
+              <text x="210" y="102" fill="#38bdf8" font-size="9" font-family="monospace">car 0.91</text>
+              <path d="M0 214 Q80 196 160 214 T320 208" fill="none" stroke="#38bdf8" stroke-opacity=".35"/>
+              <path d="M0 226 Q90 208 170 226 T320 220" fill="none" stroke="#38bdf8" stroke-opacity=".18"/>
+            </svg>
+          </div>
+          <div class="floating-chip chip-a">检测 · 28 ms</div>
+          <div class="floating-chip chip-b">深度 · 96 ms</div>
+          <div class="floating-chip chip-c">决策 · 4 actions</div>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <article class="card feature" data-goto="detect">
+          <div class="feature-icon mint">▣</div>
+          <h3>目标检测</h3>
+          <p>YOLOv8n 在 COCO 预训练权重上检测行人、汽车、公交车、卡车等目标，配合 IoU 跟踪器保持视频中的目标 ID。</p>
+          <div class="feature-foot"><span class="mono">person · car · bus · truck</span><span class="arrow">→</span></div>
+        </article>
+        <article class="card feature" data-goto="face">
+          <div class="feature-icon violet">◉</div>
+          <h3>人脸检测</h3>
+          <p>YuNet 轻量人脸检测器输出人脸框、置信度与 5 个关键点，适合部署在资源受限的机器人端侧设备。</p>
+          <div class="feature-foot"><span class="mono">YuNet · 5 landmarks</span><span class="arrow">→</span></div>
+        </article>
+        <article class="card feature" data-goto="depth">
+          <div class="feature-icon amber">◐</div>
+          <h3>视觉深度估计</h3>
+          <p>MiDaS-small 从单张 RGB 图像回归相对深度，并将检测结果映射为近 / 中 / 远三档风险，为导航提供可解释提示。</p>
+          <div class="feature-foot"><span class="mono">monocular · relative depth</span><span class="arrow">→</span></div>
+        </article>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head">
+            <h3>运行环境</h3>
+            <span class="tag">实时状态</span>
+          </div>
+          <div class="status-grid" id="status-grid">
+            <div class="status-cell"><span>YOLOv8n</span><b id="model-yolo">检查中</b></div>
+            <div class="status-cell"><span>YuNet</span><b id="model-face">检查中</b></div>
+            <div class="status-cell"><span>MiDaS</span><b id="model-depth">检查中</b></div>
+            <div class="status-cell"><span>计算设备</span><b id="model-device">—</b></div>
+            <div class="status-cell"><span>DQN 导航策略</span><b id="ckpt-robotnav">检查中</b></div>
+            <div class="status-cell"><span>DQN CartPole</span><b id="ckpt-cartpole">检查中</b></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <h3>系统工作流</h3>
+            <span class="tag">Perception → Fusion → Action</span>
+          </div>
+          <div class="pipeline">
+            <div class="pipe-step"><b>01</b><span>多任务感知</span><small>检测 · 人脸 · 深度</small></div>
+            <div class="pipe-line"></div>
+            <div class="pipe-step"><b>02</b><span>跨模态融合</span><small>目标 × 深度 → 风险</small></div>
+            <div class="pipe-line"></div>
+            <div class="pipe-step"><b>03</b><span>自主决策</span><small>Double DQN 策略</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h3>示例场景</h3>
+          <span class="tag">点击直接分析</span>
+        </div>
+        <div class="sample-strip" id="overview-samples">
+          <div class="loading-line">正在加载示例图片…</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 目标检测 ============================ -->
+    <section class="view" id="view-detect">
+      <div class="workspace">
+        <div class="card tool-panel">
+          <div class="card-head"><h3>输入图像</h3><span class="tag">YOLOv8n · COCO</span></div>
+          <div class="dropzone" id="drop-detect" data-task="detect">
+            <input type="file" accept="image/*" hidden>
+            <div class="dz-icon">⇪</div>
+            <b>拖拽图片到这里</b>
+            <span>或点击选择文件 · JPG / PNG</span>
+          </div>
+          <div class="preview-wrap" id="preview-detect"><img alt="输入预览"></div>
+          <div class="sample-row" id="samples-detect"></div>
+          <button class="btn primary wide run-btn" data-task="detect">运行检测</button>
+          <p class="hint">检测类别：行人、自行车、汽车、摩托车、公交车、卡车。视频模式下自动启用 IoU 跟踪。</p>
+        </div>
+
+        <div class="card result-panel">
+          <div class="card-head"><h3>检测结果</h3><span class="latency" id="latency-detect">—</span></div>
+          <div class="result-media" id="media-detect">
+            <div class="empty">上传图片后显示标注结果</div>
+          </div>
+          <div class="metric-row" id="metrics-detect"></div>
+          <div class="table-wrap" id="table-detect"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 人脸检测 ============================ -->
+    <section class="view" id="view-face">
+      <div class="workspace">
+        <div class="card tool-panel">
+          <div class="card-head"><h3>输入图像</h3><span class="tag">YuNet · 5 landmarks</span></div>
+          <div class="dropzone" id="drop-face" data-task="face">
+            <input type="file" accept="image/*" hidden>
+            <div class="dz-icon">⇪</div>
+            <b>拖拽图片到这里</b>
+            <span>或点击选择文件 · JPG / PNG</span>
+          </div>
+          <div class="preview-wrap" id="preview-face"><img alt="输入预览"></div>
+          <div class="sample-row" id="samples-face"></div>
+          <button class="btn primary wide run-btn" data-task="face">运行人脸检测</button>
+          <p class="hint">YuNet 输出人脸框、置信度与双眼、鼻尖、嘴角共 5 个关键点。</p>
+        </div>
+
+        <div class="card result-panel">
+          <div class="card-head"><h3>人脸结果</h3><span class="latency" id="latency-face">—</span></div>
+          <div class="result-media" id="media-face">
+            <div class="empty">上传图片后显示人脸检测结果</div>
+          </div>
+          <div class="metric-row" id="metrics-face"></div>
+          <div class="table-wrap" id="table-face"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 深度估计 ============================ -->
+    <section class="view" id="view-depth">
+      <div class="workspace">
+        <div class="card tool-panel">
+          <div class="card-head"><h3>输入图像</h3><span class="tag">MiDaS-small · ONNX</span></div>
+          <div class="dropzone" id="drop-depth" data-task="depth">
+            <input type="file" accept="image/*" hidden>
+            <div class="dz-icon">⇪</div>
+            <b>拖拽图片到这里</b>
+            <span>或点击选择文件 · JPG / PNG</span>
+          </div>
+          <div class="preview-wrap" id="preview-depth"><img alt="输入预览"></div>
+          <div class="sample-row" id="samples-depth"></div>
+          <button class="btn primary wide run-btn" data-task="depth">运行深度估计</button>
+          <p class="hint">同时执行目标检测，把每个目标的深度映射为近 / 中 / 远三档，并给出导航风险建议。</p>
+        </div>
+
+        <div class="card result-panel">
+          <div class="card-head"><h3>深度与融合</h3><span class="latency" id="latency-depth">—</span></div>
+          <div class="result-media" id="media-depth">
+            <div class="empty">上传图片后显示深度伪彩色与融合结果</div>
+          </div>
+          <div class="metric-row" id="metrics-depth"></div>
+          <div class="suggestion" id="suggestion-depth"></div>
+          <div class="fusion-row" id="fusion-depth"></div>
+          <div class="table-wrap" id="table-depth"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 机器人决策 ============================ -->
+    <section class="view" id="view-decision">
+      <div class="decision-layout">
+        <div class="card sim-card">
+          <div class="card-head">
+            <h3 id="sim-title">机器人栅格导航</h3>
+            <span class="tag" id="sim-tag">Double DQN</span>
+          </div>
+          <div class="canvas-wrap">
+            <canvas id="grid-canvas" width="520" height="580"></canvas>
+            <img id="cartpole-frame" alt="CartPole 仿真" hidden>
+            <div class="sim-overlay" id="sim-overlay"><span class="sim-message">点击「开始新回合」启动仿真</span></div>
+          </div>
+          <div class="sim-controls">
+            <div class="control-group">
+              <label>环境</label>
+              <select id="env-select">
+                <option value="robotnav">机器人栅格导航</option>
+                <option value="cartpole">CartPole 平衡</option>
+              </select>
+            </div>
+            <div class="control-group">
+              <label>策略</label>
+              <select id="policy-select">
+                <option value="dqn">Double DQN</option>
+                <option value="astar">A* 基线</option>
+                <option value="random">随机策略</option>
+                <option value="manual">手动控制</option>
+              </select>
+            </div>
+            <button class="btn primary" id="btn-reset">开始新回合</button>
+            <button class="btn ghost" id="btn-step" disabled>单步</button>
+          </div>
+          <div class="speed-row">
+            <label class="switch"><input type="checkbox" id="auto-run" checked><span></span>自动运行</label>
+            <label class="slider-label">速度 <input type="range" id="speed" min="60" max="800" value="220" step="20"></label>
+            <span class="hint-inline" id="manual-hint">方向键控制机器人</span>
+          </div>
+        </div>
+
+        <div class="decision-side">
+          <div class="card">
+            <div class="card-head"><h3>回合状态</h3><span class="tag" id="episode-tag">EP —</span></div>
+            <div class="sim-stats">
+              <div class="sim-stat"><span>累计奖励</span><b id="stat-return">0.00</b></div>
+              <div class="sim-stat"><span>步数</span><b id="stat-steps">0</b></div>
+              <div class="sim-stat"><span>距目标</span><b id="stat-distance">—</b></div>
+              <div class="sim-stat"><span>最近奖励</span><b id="stat-reward">—</b></div>
+            </div>
+            <div class="note" id="decision-note" hidden></div>
+          </div>
+
+          <div class="card">
+            <div class="card-head"><h3>Q 值分布</h3><span class="tag">Double DQN</span></div>
+            <div class="q-bars" id="q-bars">
+              <div class="empty small">DQN 模式下显示动作价值</div>
+            </div>
+            <p class="hint">Q 值越高，网络越倾向于在该状态下选择该动作。A* / 随机 / 手动模式不提供 Q 值。</p>
+          </div>
+
+          <div class="card">
+            <div class="card-head"><h3>策略说明</h3></div>
+            <ul class="explain-list">
+              <li><b>Double DQN</b>：11 维局部射线观测 → 128×128 MLP → 4 个动作价值。</li>
+              <li><b>A* 基线</b>：使用完整静态地图与当前动态障碍重新规划，属于强基线。</li>
+              <li><b>随机策略</b>：均匀随机动作，用作下界。</li>
+              <li><b>手动控制</b>：方向键 ↑↓←→ 控制机器人移动。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+# RoboVision 默认配置
+# 所有相对路径均以项目根目录为基准。
+
+project:
+  name: RoboVision
+  seed: 42
+
+detection:
+  # Ultralytics YOLOv8n，COCO 预训练
+  model: models/yolov8n.pt
+  imgsz: 640
+  conf: 0.35
+  iou: 0.45
+  max_det: 100
+  device: auto            # auto / cpu / 0
+  # COCO 类别：0 person, 1 bicycle, 2 car, 3 motorcycle, 5 bus, 7 truck
+  # 留空 [] 表示检测全部 80 类
+  classes: [0, 1, 2, 3, 5, 7]
+  track: true
+  tracker_iou: 0.30
+  tracker_max_age: 30
+
+face:
+  model: models/face_detection_yunet_2023mar.onnx
+  score_threshold: 0.70
+  nms_threshold: 0.30
+  top_k: 5000
+
+depth:
+  model: models/midas_small.onnx
+  input_size: 256
+  colormap: inferno
+  num_threads: 4
+  # 百分位裁剪，抑制极值对可视化的影响
+  clip_percentile: [2.0, 98.0]
+
+decision:
+  device: cpu
+  cartpole:
+    checkpoint: runs/cartpole/best.pt
+    episodes: 500
+    max_steps: 500
+  robotnav:
+    checkpoint: runs/robotnav/best.pt
+    episodes: 1000
+    max_steps: 100
+
+web:
+  host: 127.0.0.1
+  port: 5000
+  camera: 0
+  max_upload_mb: 20
+
+visualization:
+  box_thickness: 2
+  font_scale: 0.55
+  show_depth_level: true

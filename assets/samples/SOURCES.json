@@ -1,0 +1,56 @@
+[
+  {
+    "filename": "street_traffic.jpg",
+    "scene": "城市道路车流：车辆检测",
+    "source": "Unsplash",
+    "page": "https://unsplash.com/photos/1449824913935-59a10b8d2000"
+  },
+  {
+    "filename": "street_pedestrian.jpg",
+    "scene": "城市街景：行人/车辆混合",
+    "source": "Unsplash",
+    "page": "https://unsplash.com/photos/1519501025264-65ba15a82390"
+  },
+  {
+    "filename": "bus.jpg",
+    "scene": "公交车：车辆检测",
+    "source": "Unsplash",
+    "page": "https://unsplash.com/photos/1544620347-c4fd4a3d5957"
+  },
+  {
+    "filename": "cars.jpg",
+    "scene": "跑车：车辆检测",
+    "source": "Unsplash",
+    "page": "https://unsplash.com/photos/1503376780353-7e6692767b70"
+  },
+  {
+    "filename": "portrait.jpg",
+    "scene": "人物肖像：人脸检测",
+    "source": "Unsplash",
+    "page": "https://unsplash.com/photos/1494790108377-be9c29b29330"
+  },
+  {
+    "filename": "portrait_man.jpg",
+    "scene": "人物肖像：人脸检测",
+    "source": "Unsplash",
+    "page": "https://unsplash.com/photos/1507003211169-0a1dd7228f2d"
+  },
+  {
+    "filename": "group.jpg",
+    "scene": "多人合影：8 张人脸",
+    "source": "Pexels",
+    "page": "https://www.pexels.com/photo/1595385/"
+  },
+  {
+    "filename": "city_street.jpg",
+    "scene": "城市街道：深度估计与融合",
+    "source": "Unsplash",
+    "page": "https://unsplash.com/photos/1514924013411-cbf25faa35bb"
+  },
+  {
+    "filename": "students.jpg",
+    "scene": "学生讨论：多人脸检测",
+    "source": "Unsplash",
+    "page": "https://unsplash.com/photos/1543269865-cbf427effbad"
+  }
+]
