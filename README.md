@@ -1,5 +1,7 @@
 # RoboVision · 智能机器人多任务感知与决策系统
 
+[![CI](https://github.com/clovernoah/RoboVision/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/clovernoah/RoboVision/actions/workflows/ci.yml)
+
 > 智能机器人技术课程大作业
 >
 > 目标检测（行人 / 车辆 / 人脸） · 单目视觉深度估计 · 深度强化学习决策
