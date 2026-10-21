@@ -1,6 +1,7 @@
 # RoboVision · 智能机器人多任务感知与决策系统
 
 [![CI](https://github.com/clovernoah/RoboVision/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/clovernoah/RoboVision/actions/workflows/ci.yml)
+[![Docker](https://github.com/clovernoah/RoboVision/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/clovernoah/RoboVision/actions/workflows/docker.yml)
 
 > 智能机器人技术课程大作业
 >
@@ -193,6 +194,27 @@ python scripts/benchmark.py --iterations 12
 python -m pytest -q
 python scripts/make_report_assets.py
 ```
+
+### 4.5 Docker 镜像（GHCR）
+
+镜像已发布到 GitHub Container Registry，已包含三个感知模型和 DQN 检查点：
+
+```bash
+docker pull ghcr.io/clovernoah/robovision:latest
+docker run --rm -p 5000:5000 ghcr.io/clovernoah/robovision:latest
+```
+
+浏览器打开 <http://localhost:5000>。
+
+镜像大小约 2.7 GB，使用 CPU 推理。首次启动/首次分析会加载模型，之后会快很多。也可以使用固定 commit 标签：
+
+```bash
+docker pull ghcr.io/clovernoah/robovision:sha-<commit>
+```
+
+GHCR 包页面：<https://github.com/clovernoah/RoboVision/pkgs/container/robovision>
+
+Docker 工作流会在 `Dockerfile`、代码或模型变更时自动重新构建并推送。
 
 ## 5. 实验结果摘要
 
