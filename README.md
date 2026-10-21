@@ -182,6 +182,8 @@ python scripts/evaluate_dqn.py --env cartpole --episodes 300
 
 训练产物：`runs/<env>/best.pt`、`last.pt`、`metrics.csv`、`summary.json`、`training_curve.png`；评估产物：`eval_all.json`、`episode.gif`。
 
+> 仓库已包含演示用的 DQN 检查点：`runs/robotnav/best.pt`、`runs/cartpole/best.pt`、`runs/robotnav_vanilla/best.pt`。克隆后无需重新训练即可体验决策页；重新运行训练脚本会覆盖这些文件。
+
 ### 4.4 性能基准、测试与报告插图
 
 ```bash

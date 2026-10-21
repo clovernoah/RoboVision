@@ -4,9 +4,21 @@ models/*.onnx
 models/*.pth
 models/*.part
 
-# 训练与评估产物
+# 训练与评估产物：只保留演示所需的 best.pt，其余日志/曲线不提交
 runs/*
 !runs/.gitkeep
+
+!runs/robotnav/
+runs/robotnav/*
+!runs/robotnav/best.pt
+
+!runs/cartpole/
+runs/cartpole/*
+!runs/cartpole/best.pt
+
+!runs/robotnav_vanilla/
+runs/robotnav_vanilla/*
+!runs/robotnav_vanilla/best.pt
 
 # Python
 .venv/
