@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+docs
+tests
+
+runs/*
+!runs/robotnav/
+!runs/robotnav/best.pt
+!runs/cartpole/
+!runs/cartpole/best.pt
+!runs/robotnav_vanilla/
+!runs/robotnav_vanilla/best.pt
