@@ -1,4 +1,4 @@
-name: Docker
+name: Docker 镜像
 
 on:
   push:

@@ -1,7 +1,7 @@
 # RoboVision · 智能机器人多任务感知与决策系统
 
-[![CI](https://github.com/clovernoah/RoboVision/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/clovernoah/RoboVision/actions/workflows/ci.yml)
-[![Docker](https://github.com/clovernoah/RoboVision/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/clovernoah/RoboVision/actions/workflows/docker.yml)
+[![持续集成](https://github.com/clovernoah/RoboVision/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/clovernoah/RoboVision/actions/workflows/ci.yml)
+[![Docker 镜像](https://github.com/clovernoah/RoboVision/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/clovernoah/RoboVision/actions/workflows/docker.yml)
 
 > 智能机器人技术课程大作业
 >

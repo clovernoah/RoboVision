@@ -1,7 +1,7 @@
 FROM python:3.12-slim
 
 LABEL org.opencontainers.image.title="RoboVision" \
-      org.opencontainers.image.description="Intelligent robot perception and decision system" \
+      org.opencontainers.image.description="面向服务机器人的多任务视觉感知与决策系统" \
       org.opencontainers.image.source="https://github.com/clovernoah/RoboVision" \
       org.opencontainers.image.licenses="AGPL-3.0"
 
