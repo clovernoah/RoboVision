@@ -1,0 +1,38 @@
+{
+  "episodes": 500,
+  "seed_base": 30000,
+  "results": {
+    "double": {
+      "env": "robotnav",
+      "policy": "dqn",
+      "episodes": 500,
+      "success_rate": 0.854,
+      "mean_return": 44.19818,
+      "std_return": 27.519790204280262,
+      "mean_steps": 15.252,
+      "collision_rate": 0.084,
+      "timeout_rate": 0.062,
+      "elapsed_s": 0.457,
+      "gif": null
+    },
+    "vanilla": {
+      "env": "robotnav",
+      "policy": "dqn",
+      "episodes": 500,
+      "success_rate": 0.886,
+      "mean_return": 47.95154,
+      "std_return": 21.136187088223835,
+      "mean_steps": 15.15,
+      "collision_rate": 0.062,
+      "timeout_rate": 0.052,
+      "elapsed_s": 0.461,
+      "gif": null
+    }
+  },
+  "paired": {
+    "both": 403,
+    "only_double": 24,
+    "only_vanilla": 40,
+    "neither": 33
+  }
+}

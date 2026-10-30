@@ -1,0 +1,6353 @@
+{
+  "env": "robotnav",
+  "episodes": 300,
+  "seed_base": 30000,
+  "checkpoint": "runs/robotnav/best.pt",
+  "results": {
+    "dqn": {
+      "env": "robotnav",
+      "policy": "dqn",
+      "episodes": 300,
+      "success_rate": 0.8666666666666667,
+      "mean_return": 45.30799999999999,
+      "std_return": 26.49106231668837,
+      "mean_steps": 14.743333333333334,
+      "collision_rate": 0.07666666666666666,
+      "timeout_rate": 0.056666666666666664,
+      "elapsed_s": 0.29,
+      "gif": "runs/robotnav/episode.gif",
+      "details": [
+        {
+          "seed": 30000,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30001,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30002,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30003,
+          "return": -7.69,
+          "steps": 4,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30004,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30005,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30006,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30007,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30008,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30009,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30010,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30011,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30012,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30013,
+          "return": 59.18,
+          "steps": 15,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30014,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30015,
+          "return": -38.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30016,
+          "return": -26.78,
+          "steps": 67,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30017,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30018,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30019,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30020,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30021,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30022,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30023,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30024,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30025,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30026,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30027,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30028,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30029,
+          "return": -6.15,
+          "steps": 6,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30030,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30031,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30032,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30033,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30034,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30035,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30036,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30037,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30038,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30039,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30040,
+          "return": -15.61,
+          "steps": 28,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30041,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30042,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30043,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30044,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30045,
+          "return": -24.23,
+          "steps": 62,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30046,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30047,
+          "return": 60.78,
+          "steps": 15,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30048,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30049,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30050,
+          "return": -38.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30051,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30052,
+          "return": -16.13,
+          "steps": 32,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30053,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30054,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30055,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30056,
+          "return": -40.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30057,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30058,
+          "return": -4.61,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30059,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30060,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30061,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30062,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30063,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30064,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30065,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30066,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30067,
+          "return": -42.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30068,
+          "return": -10.06,
+          "steps": 3,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30069,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30070,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30071,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30072,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30073,
+          "return": -40.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30074,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30075,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30076,
+          "return": -40.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30077,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30078,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30079,
+          "return": 56.1,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30080,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30081,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30082,
+          "return": 53.15,
+          "steps": 16,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30083,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30084,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30085,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30086,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30087,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30088,
+          "return": -19.82,
+          "steps": 35,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30089,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30090,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30091,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30092,
+          "return": -2.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30093,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30094,
+          "return": -7.69,
+          "steps": 4,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30095,
+          "return": -31.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30096,
+          "return": -37.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30097,
+          "return": -7.22,
+          "steps": 15,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30098,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30099,
+          "return": -42.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30100,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30101,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30102,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30103,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30104,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30105,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30106,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30107,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30108,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30109,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30110,
+          "return": 61.55,
+          "steps": 16,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30111,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30112,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30113,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30114,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30115,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30116,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30117,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30118,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30119,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30120,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30121,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30122,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30123,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30124,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30125,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30126,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30127,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30128,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30129,
+          "return": -8.18,
+          "steps": 7,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30130,
+          "return": 61.55,
+          "steps": 16,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30131,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30132,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30133,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30134,
+          "return": 53.52,
+          "steps": 17,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30135,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30136,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30137,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30138,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30139,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30140,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30141,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30142,
+          "return": 61.49,
+          "steps": 18,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30143,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30144,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30145,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30146,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30147,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30148,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30149,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30150,
+          "return": 50.84,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30151,
+          "return": 53.73,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30152,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30153,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30154,
+          "return": 45.78,
+          "steps": 35,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30155,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30156,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30157,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30158,
+          "return": 53.34,
+          "steps": 23,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30159,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30160,
+          "return": -6.21,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30161,
+          "return": 54.73,
+          "steps": 30,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30162,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30163,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30164,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30165,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30166,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30167,
+          "return": -35.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30168,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30169,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30170,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30171,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30172,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30173,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30174,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30175,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30176,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30177,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30178,
+          "return": -3.13,
+          "steps": 12,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30179,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30180,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30181,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30182,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30183,
+          "return": -6.92,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30184,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30185,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30186,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30187,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30188,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30189,
+          "return": 54.38,
+          "steps": 15,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30190,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30191,
+          "return": -14.08,
+          "steps": 17,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30192,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30193,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30194,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30195,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30196,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30197,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30198,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30199,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30200,
+          "return": 54.9,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30201,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30202,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30203,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30204,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30205,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30206,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30207,
+          "return": -6.15,
+          "steps": 6,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30208,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30209,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30210,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30211,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30212,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30213,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30214,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30215,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30216,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30217,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30218,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30219,
+          "return": -39.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30220,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30221,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30222,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30223,
+          "return": -2.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30224,
+          "return": 60.72,
+          "steps": 17,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30225,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30226,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30227,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30228,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30229,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30230,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30231,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30232,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30233,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30234,
+          "return": -16.99,
+          "steps": 34,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30235,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30236,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30237,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30238,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30239,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30240,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30241,
+          "return": -7.69,
+          "steps": 4,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30242,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30243,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30244,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30245,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30246,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30247,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30248,
+          "return": 53.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30249,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30250,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30251,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30252,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30253,
+          "return": -15.18,
+          "steps": 27,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30254,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30255,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30256,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30257,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30258,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30259,
+          "return": -37.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30260,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30261,
+          "return": -20.25,
+          "steps": 36,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30262,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30263,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30264,
+          "return": 53.79,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30265,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30266,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30267,
+          "return": -41.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30268,
+          "return": -42.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30269,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30270,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30271,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30272,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30273,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30274,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30275,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30276,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30277,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30278,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30279,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30280,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30281,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30282,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30283,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30284,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30285,
+          "return": 51.0,
+          "steps": 21,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30286,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30287,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30288,
+          "return": -6.92,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30289,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30290,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30291,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30292,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30293,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30294,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30295,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30296,
+          "return": 54.26,
+          "steps": 19,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30297,
+          "return": 56.87,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30298,
+          "return": -6.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30299,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        }
+      ]
+    },
+    "random": {
+      "env": "robotnav",
+      "policy": "random",
+      "episodes": 300,
+      "success_rate": 0.08,
+      "mean_return": -7.93056666666667,
+      "std_return": 17.73361548055619,
+      "mean_steps": 52.99,
+      "collision_rate": 0.6466666666666666,
+      "timeout_rate": 0.2733333333333333,
+      "elapsed_s": 0.214,
+      "gif": null,
+      "details": [
+        {
+          "seed": 30000,
+          "return": -10.55,
+          "steps": 6,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30001,
+          "return": -13.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30002,
+          "return": -14.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30003,
+          "return": -15.68,
+          "steps": 97,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30004,
+          "return": -10.42,
+          "steps": 15,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30005,
+          "return": -16.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30006,
+          "return": 51.81,
+          "steps": 34,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30007,
+          "return": -12.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30008,
+          "return": -12.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30009,
+          "return": -12.2,
+          "steps": 21,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30010,
+          "return": -23.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30011,
+          "return": -6.06,
+          "steps": 43,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30012,
+          "return": -12.08,
+          "steps": 17,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30013,
+          "return": -4.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30014,
+          "return": -9.87,
+          "steps": 50,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30015,
+          "return": -10.71,
+          "steps": 38,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30016,
+          "return": -4.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30017,
+          "return": 50.47,
+          "steps": 52,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30018,
+          "return": 48.8,
+          "steps": 41,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30019,
+          "return": -15.85,
+          "steps": 76,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30020,
+          "return": -11.21,
+          "steps": 28,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30021,
+          "return": -6.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30022,
+          "return": -11.62,
+          "steps": 15,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30023,
+          "return": -15.97,
+          "steps": 80,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30024,
+          "return": -11.38,
+          "steps": 47,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30025,
+          "return": -9.07,
+          "steps": 10,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30026,
+          "return": -7.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30027,
+          "return": 52.05,
+          "steps": 26,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30028,
+          "return": -16.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30029,
+          "return": -13.58,
+          "steps": 27,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30030,
+          "return": -17.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30031,
+          "return": -8.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30032,
+          "return": -16.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30033,
+          "return": -8.9,
+          "steps": 31,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30034,
+          "return": -10.18,
+          "steps": 7,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30035,
+          "return": -18.02,
+          "steps": 95,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30036,
+          "return": -15.85,
+          "steps": 36,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30037,
+          "return": -15.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30038,
+          "return": -11.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30039,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30040,
+          "return": -9.54,
+          "steps": 39,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30041,
+          "return": -7.93,
+          "steps": 12,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30042,
+          "return": -11.01,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30043,
+          "return": -13.95,
+          "steps": 26,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30044,
+          "return": -10.76,
+          "steps": 13,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30045,
+          "return": -8.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30046,
+          "return": -14.78,
+          "steps": 67,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30047,
+          "return": -9.81,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30048,
+          "return": -9.06,
+          "steps": 23,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30049,
+          "return": -7.63,
+          "steps": 42,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30050,
+          "return": -9.98,
+          "steps": 27,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30051,
+          "return": -15.7,
+          "steps": 71,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30052,
+          "return": -10.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30053,
+          "return": -6.72,
+          "steps": 25,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30054,
+          "return": -12.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30055,
+          "return": -12.9,
+          "steps": 71,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30056,
+          "return": -14.65,
+          "steps": 36,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30057,
+          "return": -22.51,
+          "steps": 58,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30058,
+          "return": -18.29,
+          "steps": 64,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30059,
+          "return": -12.58,
+          "steps": 47,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30060,
+          "return": -10.66,
+          "steps": 23,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30061,
+          "return": -7.5,
+          "steps": 91,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30062,
+          "return": -17.78,
+          "steps": 47,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30063,
+          "return": -11.72,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30064,
+          "return": -14.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30065,
+          "return": -20.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30066,
+          "return": -12.3,
+          "steps": 11,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30067,
+          "return": -17.64,
+          "steps": 69,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30068,
+          "return": -9.23,
+          "steps": 2,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30069,
+          "return": -11.59,
+          "steps": 14,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30070,
+          "return": 48.19,
+          "steps": 48,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30071,
+          "return": -12.63,
+          "steps": 22,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30072,
+          "return": -10.47,
+          "steps": 70,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30073,
+          "return": -16.52,
+          "steps": 45,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30074,
+          "return": 52.65,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30075,
+          "return": -17.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30076,
+          "return": -9.29,
+          "steps": 4,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30077,
+          "return": -21.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30078,
+          "return": -20.27,
+          "steps": 50,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30079,
+          "return": -11.12,
+          "steps": 25,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30080,
+          "return": -9.5,
+          "steps": 11,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30081,
+          "return": -15.08,
+          "steps": 37,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30082,
+          "return": -5.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30083,
+          "return": -16.21,
+          "steps": 48,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30084,
+          "return": -12.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30085,
+          "return": -11.1,
+          "steps": 11,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30086,
+          "return": -12.91,
+          "steps": 58,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30087,
+          "return": -12.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30088,
+          "return": -10.64,
+          "steps": 9,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30089,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30090,
+          "return": -19.85,
+          "steps": 76,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30091,
+          "return": -13.7,
+          "steps": 31,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30092,
+          "return": -8.42,
+          "steps": 15,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30093,
+          "return": -14.71,
+          "steps": 38,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30094,
+          "return": -11.86,
+          "steps": 23,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30095,
+          "return": -17.32,
+          "steps": 85,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30096,
+          "return": -18.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30097,
+          "return": -11.13,
+          "steps": 12,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30098,
+          "return": -15.13,
+          "steps": 52,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30099,
+          "return": -15.86,
+          "steps": 23,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30100,
+          "return": -15.98,
+          "steps": 27,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30101,
+          "return": -11.27,
+          "steps": 30,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30102,
+          "return": -9.4,
+          "steps": 21,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30103,
+          "return": -24.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30104,
+          "return": -6.98,
+          "steps": 47,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30105,
+          "return": -26.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30106,
+          "return": -10.58,
+          "steps": 7,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30107,
+          "return": -11.79,
+          "steps": 74,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30108,
+          "return": -8.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30109,
+          "return": 51.86,
+          "steps": 59,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30110,
+          "return": -10.1,
+          "steps": 31,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30111,
+          "return": -10.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30112,
+          "return": -19.37,
+          "steps": 100,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30113,
+          "return": -13.45,
+          "steps": 36,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30114,
+          "return": -14.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30115,
+          "return": -17.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30116,
+          "return": -11.81,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30117,
+          "return": -12.52,
+          "steps": 85,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30118,
+          "return": -13.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30119,
+          "return": 50.58,
+          "steps": 35,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30120,
+          "return": -20.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30121,
+          "return": 47.46,
+          "steps": 59,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30122,
+          "return": -17.68,
+          "steps": 97,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30123,
+          "return": -8.57,
+          "steps": 60,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30124,
+          "return": -7.03,
+          "steps": 22,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30125,
+          "return": -8.14,
+          "steps": 19,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30126,
+          "return": 50.56,
+          "steps": 49,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30127,
+          "return": 46.37,
+          "steps": 82,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30128,
+          "return": 49.93,
+          "steps": 30,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30129,
+          "return": -13.85,
+          "steps": 36,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30130,
+          "return": -8.76,
+          "steps": 13,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30131,
+          "return": -10.79,
+          "steps": 14,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30132,
+          "return": -9.22,
+          "steps": 15,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30133,
+          "return": -10.48,
+          "steps": 17,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30134,
+          "return": 54.21,
+          "steps": 34,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30135,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30136,
+          "return": -14.36,
+          "steps": 93,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30137,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30138,
+          "return": 52.48,
+          "steps": 25,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30139,
+          "return": -9.98,
+          "steps": 27,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30140,
+          "return": -11.44,
+          "steps": 9,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30141,
+          "return": -10.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30142,
+          "return": -7.5,
+          "steps": 11,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30143,
+          "return": -14.66,
+          "steps": 63,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30144,
+          "return": -8.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30145,
+          "return": -12.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30146,
+          "return": -10.02,
+          "steps": 15,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30147,
+          "return": -14.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30148,
+          "return": 49.05,
+          "steps": 46,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30149,
+          "return": -11.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30150,
+          "return": -11.49,
+          "steps": 24,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30151,
+          "return": -13.61,
+          "steps": 28,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30152,
+          "return": -19.22,
+          "steps": 55,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30153,
+          "return": 54.32,
+          "steps": 17,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30154,
+          "return": -9.23,
+          "steps": 2,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30155,
+          "return": -8.89,
+          "steps": 4,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30156,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30157,
+          "return": -10.59,
+          "steps": 34,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30158,
+          "return": -11.48,
+          "steps": 37,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30159,
+          "return": -8.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30160,
+          "return": -12.88,
+          "steps": 57,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30161,
+          "return": -13.1,
+          "steps": 11,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30162,
+          "return": -19.42,
+          "steps": 75,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30163,
+          "return": -11.01,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30164,
+          "return": -10.62,
+          "steps": 35,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30165,
+          "return": -8.52,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30166,
+          "return": -16.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30167,
+          "return": -7.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30168,
+          "return": -7.62,
+          "steps": 15,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30169,
+          "return": -8.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30170,
+          "return": -8.1,
+          "steps": 31,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30171,
+          "return": -11.01,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30172,
+          "return": -18.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30173,
+          "return": -13.33,
+          "steps": 72,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30174,
+          "return": -14.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30175,
+          "return": -12.71,
+          "steps": 38,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30176,
+          "return": -10.88,
+          "steps": 97,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30177,
+          "return": -15.06,
+          "steps": 23,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30178,
+          "return": -30.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30179,
+          "return": -11.15,
+          "steps": 66,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30180,
+          "return": -30.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30181,
+          "return": -11.81,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30182,
+          "return": -10.95,
+          "steps": 6,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30183,
+          "return": -12.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30184,
+          "return": -14.76,
+          "steps": 53,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30185,
+          "return": -12.69,
+          "steps": 64,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30186,
+          "return": -17.05,
+          "steps": 76,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30187,
+          "return": -17.64,
+          "steps": 69,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30188,
+          "return": -9.98,
+          "steps": 27,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30189,
+          "return": -18.21,
+          "steps": 88,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30190,
+          "return": -17.45,
+          "steps": 36,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30191,
+          "return": -10.89,
+          "steps": 4,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30192,
+          "return": -17.4,
+          "steps": 61,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30193,
+          "return": -13.46,
+          "steps": 23,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30194,
+          "return": -8.46,
+          "steps": 3,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30195,
+          "return": -17.06,
+          "steps": 63,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30196,
+          "return": -9.23,
+          "steps": 2,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30197,
+          "return": -10.88,
+          "steps": 17,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30198,
+          "return": -16.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30199,
+          "return": 56.98,
+          "steps": 75,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30200,
+          "return": -8.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30201,
+          "return": -9.25,
+          "steps": 16,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30202,
+          "return": -21.68,
+          "steps": 57,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30203,
+          "return": -9.78,
+          "steps": 7,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30204,
+          "return": -24.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30205,
+          "return": -9.23,
+          "steps": 2,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30206,
+          "return": -8.35,
+          "steps": 26,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30207,
+          "return": -24.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30208,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30209,
+          "return": -7.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30210,
+          "return": 53.55,
+          "steps": 16,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30211,
+          "return": -18.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30212,
+          "return": -12.15,
+          "steps": 46,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30213,
+          "return": -9.19,
+          "steps": 14,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30214,
+          "return": -9.66,
+          "steps": 3,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30215,
+          "return": -8.95,
+          "steps": 46,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30216,
+          "return": -13.75,
+          "steps": 46,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30217,
+          "return": -11.04,
+          "steps": 9,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30218,
+          "return": -11.84,
+          "steps": 9,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30219,
+          "return": -16.9,
+          "steps": 31,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30220,
+          "return": -9.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30221,
+          "return": -10.83,
+          "steps": 2,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30222,
+          "return": 48.47,
+          "steps": 52,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30223,
+          "return": 52.84,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30224,
+          "return": -10.54,
+          "steps": 99,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30225,
+          "return": -11.81,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30226,
+          "return": -15.55,
+          "steps": 66,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30227,
+          "return": -15.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30228,
+          "return": -21.5,
+          "steps": 91,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30229,
+          "return": -16.54,
+          "steps": 19,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30230,
+          "return": -12.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30231,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30232,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30233,
+          "return": -9.32,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30234,
+          "return": -10.73,
+          "steps": 12,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30235,
+          "return": -10.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30236,
+          "return": -9.06,
+          "steps": 23,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30237,
+          "return": -11.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30238,
+          "return": -15.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30239,
+          "return": -16.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30240,
+          "return": -7.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30241,
+          "return": -19.67,
+          "steps": 70,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30242,
+          "return": -16.65,
+          "steps": 36,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30243,
+          "return": -21.9,
+          "steps": 91,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30244,
+          "return": -11.04,
+          "steps": 49,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30245,
+          "return": -15.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30246,
+          "return": 43.55,
+          "steps": 96,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30247,
+          "return": -18.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30248,
+          "return": -16.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30249,
+          "return": -11.81,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30250,
+          "return": -12.93,
+          "steps": 32,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30251,
+          "return": -14.21,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30252,
+          "return": -10.05,
+          "steps": 16,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30253,
+          "return": -14.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30254,
+          "return": -16.08,
+          "steps": 97,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30255,
+          "return": -16.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30256,
+          "return": -21.86,
+          "steps": 63,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30257,
+          "return": -10.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30258,
+          "return": -6.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30259,
+          "return": -14.55,
+          "steps": 46,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30260,
+          "return": -10.06,
+          "steps": 3,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30261,
+          "return": -10.12,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30262,
+          "return": -18.4,
+          "steps": 81,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30263,
+          "return": -19.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30264,
+          "return": -13.03,
+          "steps": 22,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30265,
+          "return": -9.35,
+          "steps": 6,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30266,
+          "return": -14.04,
+          "steps": 69,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30267,
+          "return": -13.68,
+          "steps": 17,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30268,
+          "return": -16.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30269,
+          "return": -9.29,
+          "steps": 4,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30270,
+          "return": -11.59,
+          "steps": 54,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30271,
+          "return": -13.64,
+          "steps": 69,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30272,
+          "return": 48.92,
+          "steps": 37,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30273,
+          "return": -14.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30274,
+          "return": -16.26,
+          "steps": 23,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30275,
+          "return": -14.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30276,
+          "return": -9.2,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30277,
+          "return": -19.38,
+          "steps": 87,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30278,
+          "return": -18.4,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30279,
+          "return": -12.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30280,
+          "return": -13.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30281,
+          "return": -10.12,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30282,
+          "return": -15.42,
+          "steps": 75,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30283,
+          "return": -13.51,
+          "steps": 38,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30284,
+          "return": -16.6,
+          "steps": 61,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30285,
+          "return": -15.67,
+          "steps": 30,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30286,
+          "return": -16.0,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30287,
+          "return": -12.8,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30288,
+          "return": -18.4,
+          "steps": 41,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30289,
+          "return": 43.95,
+          "steps": 96,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30290,
+          "return": -11.34,
+          "steps": 19,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30291,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30292,
+          "return": -10.0,
+          "steps": 1,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30293,
+          "return": -9.23,
+          "steps": 2,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30294,
+          "return": -10.01,
+          "steps": 28,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30295,
+          "return": -7.81,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30296,
+          "return": -21.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30297,
+          "return": -11.49,
+          "steps": 64,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30298,
+          "return": -13.6,
+          "steps": 100,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30299,
+          "return": -12.55,
+          "steps": 6,
+          "success": false,
+          "collision": true
+        }
+      ]
+    },
+    "astar": {
+      "env": "robotnav",
+      "policy": "astar",
+      "episodes": 300,
+      "success_rate": 0.9633333333333334,
+      "mean_return": 53.237033333333336,
+      "std_return": 11.909571257279676,
+      "mean_steps": 8.476666666666667,
+      "collision_rate": 0.03666666666666667,
+      "timeout_rate": 0.0,
+      "elapsed_s": 0.104,
+      "gif": null,
+      "details": [
+        {
+          "seed": 30000,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30001,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30002,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30003,
+          "return": -8.52,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30004,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30005,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30006,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30007,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30008,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30009,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30010,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30011,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30012,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30013,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30014,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30015,
+          "return": -5.44,
+          "steps": 9,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30016,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30017,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30018,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30019,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30020,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30021,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30022,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30023,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30024,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30025,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30026,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30027,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30028,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30029,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30030,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30031,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30032,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30033,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30034,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30035,
+          "return": 59.18,
+          "steps": 15,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30036,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30037,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30038,
+          "return": -6.92,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30039,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30040,
+          "return": 56.87,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30041,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30042,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30043,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30044,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30045,
+          "return": -1.59,
+          "steps": 14,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30046,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30047,
+          "return": 60.78,
+          "steps": 15,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30048,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30049,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30050,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30051,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30052,
+          "return": 56.04,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30053,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30054,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30055,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30056,
+          "return": 55.33,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30057,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30058,
+          "return": 55.15,
+          "steps": 16,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30059,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30060,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30061,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30062,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30063,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30064,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30065,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30066,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30067,
+          "return": 52.96,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30068,
+          "return": -10.06,
+          "steps": 3,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30069,
+          "return": 58.41,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30070,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30071,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30072,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30073,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30074,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30075,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30076,
+          "return": 56.87,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30077,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30078,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30079,
+          "return": 56.1,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30080,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30081,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30082,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30083,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30084,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30085,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30086,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30087,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30088,
+          "return": 53.79,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30089,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30090,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30091,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30092,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30093,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30094,
+          "return": -7.69,
+          "steps": 4,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30095,
+          "return": 60.78,
+          "steps": 15,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30096,
+          "return": 56.04,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30097,
+          "return": -9.23,
+          "steps": 2,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30098,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30099,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30100,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30101,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30102,
+          "return": -4.61,
+          "steps": 8,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30103,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30104,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30105,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30106,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30107,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30108,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30109,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30110,
+          "return": 61.55,
+          "steps": 16,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30111,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30112,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30113,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30114,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30115,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30116,
+          "return": 59.95,
+          "steps": 16,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30117,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30118,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30119,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30120,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30121,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30122,
+          "return": 58.41,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30123,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30124,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30125,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30126,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30127,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30128,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30129,
+          "return": 52.9,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30130,
+          "return": 61.55,
+          "steps": 16,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30131,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30132,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30133,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30134,
+          "return": 56.1,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30135,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30136,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30137,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30138,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30139,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30140,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30141,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30142,
+          "return": 61.49,
+          "steps": 18,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30143,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30144,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30145,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30146,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30147,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30148,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30149,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30150,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30151,
+          "return": 53.79,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30152,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30153,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30154,
+          "return": 56.1,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30155,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30156,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30157,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30158,
+          "return": 57.64,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30159,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30160,
+          "return": 53.67,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30161,
+          "return": 55.33,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30162,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30163,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30164,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30165,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30166,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30167,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30168,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30169,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30170,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30171,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30172,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30173,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30174,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30175,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30176,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30177,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30178,
+          "return": 56.81,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30179,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30180,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30181,
+          "return": -5.38,
+          "steps": 7,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30182,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30183,
+          "return": -6.92,
+          "steps": 5,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30184,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30185,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30186,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30187,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30188,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30189,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30190,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30191,
+          "return": 53.67,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30192,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30193,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30194,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30195,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30196,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30197,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30198,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30199,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30200,
+          "return": 55.33,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30201,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30202,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30203,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30204,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30205,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30206,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30207,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30208,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30209,
+          "return": -9.23,
+          "steps": 2,
+          "success": false,
+          "collision": true
+        },
+        {
+          "seed": 30210,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30211,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30212,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30213,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30214,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30215,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30216,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30217,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30218,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30219,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30220,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30221,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30222,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30223,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30224,
+          "return": 60.78,
+          "steps": 15,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30225,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30226,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30227,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30228,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30229,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30230,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30231,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30232,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30233,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30234,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30235,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30236,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30237,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30238,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30239,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30240,
+          "return": 59.24,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30241,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30242,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30243,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30244,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30245,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30246,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30247,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30248,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30249,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30250,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30251,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30252,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30253,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30254,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30255,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30256,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30257,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30258,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30259,
+          "return": 57.64,
+          "steps": 13,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30260,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30261,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30262,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30263,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30264,
+          "return": 53.79,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30265,
+          "return": 60.01,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30266,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30267,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30268,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30269,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30270,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30271,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30272,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30273,
+          "return": 58.47,
+          "steps": 12,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30274,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30275,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30276,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30277,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30278,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30279,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30280,
+          "return": 53.08,
+          "steps": 5,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30281,
+          "return": 56.16,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30282,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30283,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30284,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30285,
+          "return": 53.02,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30286,
+          "return": 55.39,
+          "steps": 8,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30287,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30288,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30289,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30290,
+          "return": 57.7,
+          "steps": 11,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30291,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30292,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30293,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30294,
+          "return": 54.62,
+          "steps": 7,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30295,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30296,
+          "return": 54.56,
+          "steps": 9,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30297,
+          "return": 56.93,
+          "steps": 10,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30298,
+          "return": 58.41,
+          "steps": 14,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30299,
+          "return": 53.85,
+          "steps": 6,
+          "success": true,
+          "collision": false
+        }
+      ]
+    }
+  }
+}

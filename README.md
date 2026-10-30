@@ -185,6 +185,8 @@ python scripts/evaluate_dqn.py --env cartpole --episodes 300
 
 训练产物：`runs/<env>/best.pt`、`last.pt`、`metrics.csv`、`summary.json`、`training_curve.png`；评估产物：`eval_all.json`、`episode.gif`。
 
+> 完整的逐回合训练指标、终端日志、训练曲线、训练过程 GIF、评估与消融数据见 [docs/training/训练过程.md](docs/training/训练过程.md)。
+
 > 仓库已包含演示用的 DQN 检查点：`runs/robotnav/best.pt`、`runs/cartpole/best.pt`、`runs/robotnav_vanilla/best.pt`。克隆后无需重新训练即可体验决策页；重新运行训练脚本会覆盖这些文件。
 
 ### 4.4 性能基准、测试与报告插图
@@ -264,7 +266,8 @@ Intelligent_robot_technology/
 ├── tests/                            # 32 项 pytest
 └── docs/
     ├── 课程设计报告.md
-    └── images/                       # 报告与 README 插图
+    ├── images/                       # 报告与 README 插图
+    └── training/                     # DQN 逐回合指标、日志、曲线、GIF、评估
 ```
 
 ## 7. 关键设计说明

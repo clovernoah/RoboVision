@@ -1,0 +1,88 @@
+{
+  "episodes": 300,
+  "seed_base": 30000,
+  "results": {
+    "robotnav": {
+      "dqn": {
+        "env": "robotnav",
+        "policy": "dqn",
+        "episodes": 300,
+        "success_rate": 0.8666666666666667,
+        "mean_return": 45.30799999999999,
+        "std_return": 26.49106231668837,
+        "mean_steps": 14.743333333333334,
+        "collision_rate": 0.07666666666666666,
+        "timeout_rate": 0.056666666666666664,
+        "elapsed_s": 0.266,
+        "gif": null
+      },
+      "random": {
+        "env": "robotnav",
+        "policy": "random",
+        "episodes": 300,
+        "success_rate": 0.08,
+        "mean_return": -7.93056666666667,
+        "std_return": 17.73361548055619,
+        "mean_steps": 52.99,
+        "collision_rate": 0.6466666666666666,
+        "timeout_rate": 0.2733333333333333,
+        "elapsed_s": 0.203,
+        "gif": null
+      },
+      "astar": {
+        "env": "robotnav",
+        "policy": "astar",
+        "episodes": 300,
+        "success_rate": 0.9633333333333334,
+        "mean_return": 53.237033333333336,
+        "std_return": 11.909571257279676,
+        "mean_steps": 8.476666666666667,
+        "collision_rate": 0.03666666666666667,
+        "timeout_rate": 0.0,
+        "elapsed_s": 0.101,
+        "gif": null
+      }
+    },
+    "cartpole": {
+      "dqn": {
+        "env": "cartpole",
+        "policy": "dqn",
+        "episodes": 300,
+        "success_rate": 1.0,
+        "mean_return": 500.0,
+        "std_return": 0.0,
+        "mean_steps": 500.0,
+        "collision_rate": 0.0,
+        "timeout_rate": 1.0,
+        "elapsed_s": 6.982,
+        "gif": null
+      },
+      "random": {
+        "env": "cartpole",
+        "policy": "random",
+        "episodes": 300,
+        "success_rate": 0.0,
+        "mean_return": 22.163333333333334,
+        "std_return": 11.992636166507438,
+        "mean_steps": 22.163333333333334,
+        "collision_rate": 0.0,
+        "timeout_rate": 0.0,
+        "elapsed_s": 0.026,
+        "gif": null
+      },
+      "heuristic": {
+        "env": "cartpole",
+        "policy": "heuristic",
+        "episodes": 300,
+        "success_rate": 1.0,
+        "mean_return": 500.0,
+        "std_return": 0.0,
+        "mean_steps": 500.0,
+        "collision_rate": 0.0,
+        "timeout_rate": 1.0,
+        "elapsed_s": 0.392,
+        "gif": null
+      }
+    }
+  }
+}

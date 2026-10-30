@@ -1,0 +1,6353 @@
+{
+  "env": "cartpole",
+  "episodes": 300,
+  "seed_base": 30000,
+  "checkpoint": "runs/cartpole/best.pt",
+  "results": {
+    "dqn": {
+      "env": "cartpole",
+      "policy": "dqn",
+      "episodes": 300,
+      "success_rate": 1.0,
+      "mean_return": 500.0,
+      "std_return": 0.0,
+      "mean_steps": 500.0,
+      "collision_rate": 0.0,
+      "timeout_rate": 1.0,
+      "elapsed_s": 5.848,
+      "gif": "runs/cartpole/episode.gif",
+      "details": [
+        {
+          "seed": 30000,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30001,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30002,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30003,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30004,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30005,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30006,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30007,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30008,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30009,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30010,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30011,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30012,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30013,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30014,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30015,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30016,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30017,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30018,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30019,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30020,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30021,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30022,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30023,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30024,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30025,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30026,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30027,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30028,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30029,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30030,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30031,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30032,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30033,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30034,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30035,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30036,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30037,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30038,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30039,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30040,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30041,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30042,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30043,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30044,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30045,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30046,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30047,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30048,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30049,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30050,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30051,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30052,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30053,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30054,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30055,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30056,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30057,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30058,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30059,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30060,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30061,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30062,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30063,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30064,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30065,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30066,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30067,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30068,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30069,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30070,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30071,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30072,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30073,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30074,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30075,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30076,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30077,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30078,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30079,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30080,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30081,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30082,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30083,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30084,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30085,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30086,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30087,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30088,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30089,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30090,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30091,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30092,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30093,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30094,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30095,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30096,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30097,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30098,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30099,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30100,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30101,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30102,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30103,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30104,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30105,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30106,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30107,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30108,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30109,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30110,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30111,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30112,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30113,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30114,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30115,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30116,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30117,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30118,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30119,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30120,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30121,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30122,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30123,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30124,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30125,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30126,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30127,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30128,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30129,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30130,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30131,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30132,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30133,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30134,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30135,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30136,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30137,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30138,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30139,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30140,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30141,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30142,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30143,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30144,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30145,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30146,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30147,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30148,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30149,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30150,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30151,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30152,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30153,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30154,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30155,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30156,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30157,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30158,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30159,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30160,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30161,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30162,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30163,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30164,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30165,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30166,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30167,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30168,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30169,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30170,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30171,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30172,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30173,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30174,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30175,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30176,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30177,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30178,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30179,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30180,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30181,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30182,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30183,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30184,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30185,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30186,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30187,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30188,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30189,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30190,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30191,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30192,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30193,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30194,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30195,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30196,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30197,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30198,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30199,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30200,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30201,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30202,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30203,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30204,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30205,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30206,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30207,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30208,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30209,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30210,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30211,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30212,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30213,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30214,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30215,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30216,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30217,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30218,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30219,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30220,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30221,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30222,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30223,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30224,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30225,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30226,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30227,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30228,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30229,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30230,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30231,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30232,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30233,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30234,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30235,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30236,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30237,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30238,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30239,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30240,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30241,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30242,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30243,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30244,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30245,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30246,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30247,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30248,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30249,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30250,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30251,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30252,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30253,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30254,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30255,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30256,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30257,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30258,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30259,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30260,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30261,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30262,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30263,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30264,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30265,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30266,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30267,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30268,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30269,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30270,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30271,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30272,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30273,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30274,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30275,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30276,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30277,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30278,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30279,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30280,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30281,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30282,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30283,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30284,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30285,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30286,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30287,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30288,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30289,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30290,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30291,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30292,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30293,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30294,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30295,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30296,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30297,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30298,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30299,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        }
+      ]
+    },
+    "random": {
+      "env": "cartpole",
+      "policy": "random",
+      "episodes": 300,
+      "success_rate": 0.0,
+      "mean_return": 22.163333333333334,
+      "std_return": 11.992636166507438,
+      "mean_steps": 22.163333333333334,
+      "collision_rate": 0.0,
+      "timeout_rate": 0.0,
+      "elapsed_s": 0.026,
+      "gif": null,
+      "details": [
+        {
+          "seed": 30000,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30001,
+          "return": 26.0,
+          "steps": 26,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30002,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30003,
+          "return": 56.0,
+          "steps": 56,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30004,
+          "return": 36.0,
+          "steps": 36,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30005,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30006,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30007,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30008,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30009,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30010,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30011,
+          "return": 37.0,
+          "steps": 37,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30012,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30013,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30014,
+          "return": 33.0,
+          "steps": 33,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30015,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30016,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30017,
+          "return": 25.0,
+          "steps": 25,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30018,
+          "return": 40.0,
+          "steps": 40,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30019,
+          "return": 35.0,
+          "steps": 35,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30020,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30021,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30022,
+          "return": 52.0,
+          "steps": 52,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30023,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30024,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30025,
+          "return": 28.0,
+          "steps": 28,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30026,
+          "return": 28.0,
+          "steps": 28,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30027,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30028,
+          "return": 22.0,
+          "steps": 22,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30029,
+          "return": 34.0,
+          "steps": 34,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30030,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30031,
+          "return": 9.0,
+          "steps": 9,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30032,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30033,
+          "return": 47.0,
+          "steps": 47,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30034,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30035,
+          "return": 34.0,
+          "steps": 34,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30036,
+          "return": 22.0,
+          "steps": 22,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30037,
+          "return": 37.0,
+          "steps": 37,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30038,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30039,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30040,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30041,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30042,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30043,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30044,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30045,
+          "return": 36.0,
+          "steps": 36,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30046,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30047,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30048,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30049,
+          "return": 56.0,
+          "steps": 56,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30050,
+          "return": 22.0,
+          "steps": 22,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30051,
+          "return": 78.0,
+          "steps": 78,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30052,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30053,
+          "return": 34.0,
+          "steps": 34,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30054,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30055,
+          "return": 25.0,
+          "steps": 25,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30056,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30057,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30058,
+          "return": 36.0,
+          "steps": 36,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30059,
+          "return": 23.0,
+          "steps": 23,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30060,
+          "return": 42.0,
+          "steps": 42,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30061,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30062,
+          "return": 8.0,
+          "steps": 8,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30063,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30064,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30065,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30066,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30067,
+          "return": 25.0,
+          "steps": 25,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30068,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30069,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30070,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30071,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30072,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30073,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30074,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30075,
+          "return": 50.0,
+          "steps": 50,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30076,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30077,
+          "return": 49.0,
+          "steps": 49,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30078,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30079,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30080,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30081,
+          "return": 32.0,
+          "steps": 32,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30082,
+          "return": 52.0,
+          "steps": 52,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30083,
+          "return": 35.0,
+          "steps": 35,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30084,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30085,
+          "return": 30.0,
+          "steps": 30,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30086,
+          "return": 65.0,
+          "steps": 65,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30087,
+          "return": 49.0,
+          "steps": 49,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30088,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30089,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30090,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30091,
+          "return": 32.0,
+          "steps": 32,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30092,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30093,
+          "return": 25.0,
+          "steps": 25,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30094,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30095,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30096,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30097,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30098,
+          "return": 25.0,
+          "steps": 25,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30099,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30100,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30101,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30102,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30103,
+          "return": 31.0,
+          "steps": 31,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30104,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30105,
+          "return": 45.0,
+          "steps": 45,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30106,
+          "return": 43.0,
+          "steps": 43,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30107,
+          "return": 47.0,
+          "steps": 47,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30108,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30109,
+          "return": 42.0,
+          "steps": 42,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30110,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30111,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30112,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30113,
+          "return": 27.0,
+          "steps": 27,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30114,
+          "return": 63.0,
+          "steps": 63,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30115,
+          "return": 31.0,
+          "steps": 31,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30116,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30117,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30118,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30119,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30120,
+          "return": 29.0,
+          "steps": 29,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30121,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30122,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30123,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30124,
+          "return": 34.0,
+          "steps": 34,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30125,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30126,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30127,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30128,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30129,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30130,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30131,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30132,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30133,
+          "return": 54.0,
+          "steps": 54,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30134,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30135,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30136,
+          "return": 33.0,
+          "steps": 33,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30137,
+          "return": 42.0,
+          "steps": 42,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30138,
+          "return": 25.0,
+          "steps": 25,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30139,
+          "return": 27.0,
+          "steps": 27,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30140,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30141,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30142,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30143,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30144,
+          "return": 22.0,
+          "steps": 22,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30145,
+          "return": 23.0,
+          "steps": 23,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30146,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30147,
+          "return": 46.0,
+          "steps": 46,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30148,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30149,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30150,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30151,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30152,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30153,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30154,
+          "return": 50.0,
+          "steps": 50,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30155,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30156,
+          "return": 27.0,
+          "steps": 27,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30157,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30158,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30159,
+          "return": 23.0,
+          "steps": 23,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30160,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30161,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30162,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30163,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30164,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30165,
+          "return": 38.0,
+          "steps": 38,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30166,
+          "return": 37.0,
+          "steps": 37,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30167,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30168,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30169,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30170,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30171,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30172,
+          "return": 28.0,
+          "steps": 28,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30173,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30174,
+          "return": 22.0,
+          "steps": 22,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30175,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30176,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30177,
+          "return": 52.0,
+          "steps": 52,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30178,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30179,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30180,
+          "return": 33.0,
+          "steps": 33,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30181,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30182,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30183,
+          "return": 33.0,
+          "steps": 33,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30184,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30185,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30186,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30187,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30188,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30189,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30190,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30191,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30192,
+          "return": 35.0,
+          "steps": 35,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30193,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30194,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30195,
+          "return": 9.0,
+          "steps": 9,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30196,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30197,
+          "return": 36.0,
+          "steps": 36,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30198,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30199,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30200,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30201,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30202,
+          "return": 9.0,
+          "steps": 9,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30203,
+          "return": 26.0,
+          "steps": 26,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30204,
+          "return": 9.0,
+          "steps": 9,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30205,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30206,
+          "return": 25.0,
+          "steps": 25,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30207,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30208,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30209,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30210,
+          "return": 40.0,
+          "steps": 40,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30211,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30212,
+          "return": 45.0,
+          "steps": 45,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30213,
+          "return": 25.0,
+          "steps": 25,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30214,
+          "return": 54.0,
+          "steps": 54,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30215,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30216,
+          "return": 36.0,
+          "steps": 36,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30217,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30218,
+          "return": 27.0,
+          "steps": 27,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30219,
+          "return": 26.0,
+          "steps": 26,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30220,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30221,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30222,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30223,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30224,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30225,
+          "return": 30.0,
+          "steps": 30,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30226,
+          "return": 9.0,
+          "steps": 9,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30227,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30228,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30229,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30230,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30231,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30232,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30233,
+          "return": 45.0,
+          "steps": 45,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30234,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30235,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30236,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30237,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30238,
+          "return": 16.0,
+          "steps": 16,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30239,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30240,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30241,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30242,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30243,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30244,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30245,
+          "return": 9.0,
+          "steps": 9,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30246,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30247,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30248,
+          "return": 20.0,
+          "steps": 20,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30249,
+          "return": 47.0,
+          "steps": 47,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30250,
+          "return": 22.0,
+          "steps": 22,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30251,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30252,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30253,
+          "return": 32.0,
+          "steps": 32,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30254,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30255,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30256,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30257,
+          "return": 57.0,
+          "steps": 57,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30258,
+          "return": 41.0,
+          "steps": 41,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30259,
+          "return": 33.0,
+          "steps": 33,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30260,
+          "return": 27.0,
+          "steps": 27,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30261,
+          "return": 23.0,
+          "steps": 23,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30262,
+          "return": 23.0,
+          "steps": 23,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30263,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30264,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30265,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30266,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30267,
+          "return": 27.0,
+          "steps": 27,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30268,
+          "return": 27.0,
+          "steps": 27,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30269,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30270,
+          "return": 44.0,
+          "steps": 44,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30271,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30272,
+          "return": 24.0,
+          "steps": 24,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30273,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30274,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30275,
+          "return": 21.0,
+          "steps": 21,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30276,
+          "return": 18.0,
+          "steps": 18,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30277,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30278,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30279,
+          "return": 19.0,
+          "steps": 19,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30280,
+          "return": 51.0,
+          "steps": 51,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30281,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30282,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30283,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30284,
+          "return": 26.0,
+          "steps": 26,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30285,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30286,
+          "return": 10.0,
+          "steps": 10,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30287,
+          "return": 39.0,
+          "steps": 39,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30288,
+          "return": 36.0,
+          "steps": 36,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30289,
+          "return": 28.0,
+          "steps": 28,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30290,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30291,
+          "return": 13.0,
+          "steps": 13,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30292,
+          "return": 14.0,
+          "steps": 14,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30293,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30294,
+          "return": 34.0,
+          "steps": 34,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30295,
+          "return": 17.0,
+          "steps": 17,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30296,
+          "return": 15.0,
+          "steps": 15,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30297,
+          "return": 35.0,
+          "steps": 35,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30298,
+          "return": 11.0,
+          "steps": 11,
+          "success": false,
+          "collision": false
+        },
+        {
+          "seed": 30299,
+          "return": 12.0,
+          "steps": 12,
+          "success": false,
+          "collision": false
+        }
+      ]
+    },
+    "heuristic": {
+      "env": "cartpole",
+      "policy": "heuristic",
+      "episodes": 300,
+      "success_rate": 1.0,
+      "mean_return": 500.0,
+      "std_return": 0.0,
+      "mean_steps": 500.0,
+      "collision_rate": 0.0,
+      "timeout_rate": 1.0,
+      "elapsed_s": 0.386,
+      "gif": null,
+      "details": [
+        {
+          "seed": 30000,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30001,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30002,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30003,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30004,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30005,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30006,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30007,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30008,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30009,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30010,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30011,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30012,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30013,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30014,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30015,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30016,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30017,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30018,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30019,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30020,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30021,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30022,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30023,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30024,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30025,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30026,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30027,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30028,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30029,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30030,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30031,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30032,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30033,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30034,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30035,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30036,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30037,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30038,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30039,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30040,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30041,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30042,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30043,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30044,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30045,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30046,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30047,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30048,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30049,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30050,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30051,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30052,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30053,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30054,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30055,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30056,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30057,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30058,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30059,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30060,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30061,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30062,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30063,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30064,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30065,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30066,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30067,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30068,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30069,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30070,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30071,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30072,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30073,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30074,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30075,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30076,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30077,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30078,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30079,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30080,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30081,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30082,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30083,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30084,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30085,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30086,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30087,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30088,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30089,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30090,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30091,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30092,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30093,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30094,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30095,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30096,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30097,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30098,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30099,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30100,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30101,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30102,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30103,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30104,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30105,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30106,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30107,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30108,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30109,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30110,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30111,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30112,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30113,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30114,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30115,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30116,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30117,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30118,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30119,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30120,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30121,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30122,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30123,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30124,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30125,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30126,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30127,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30128,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30129,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30130,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30131,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30132,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30133,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30134,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30135,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30136,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30137,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30138,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30139,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30140,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30141,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30142,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30143,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30144,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30145,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30146,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30147,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30148,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30149,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30150,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30151,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30152,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30153,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30154,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30155,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30156,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30157,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30158,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30159,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30160,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30161,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30162,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30163,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30164,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30165,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30166,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30167,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30168,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30169,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30170,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30171,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30172,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30173,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30174,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30175,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30176,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30177,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30178,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30179,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30180,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30181,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30182,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30183,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30184,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30185,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30186,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30187,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30188,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30189,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30190,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30191,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30192,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30193,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30194,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30195,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30196,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30197,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30198,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30199,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30200,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30201,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30202,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30203,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30204,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30205,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30206,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30207,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30208,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30209,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30210,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30211,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30212,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30213,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30214,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30215,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30216,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30217,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30218,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30219,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30220,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30221,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30222,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30223,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30224,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30225,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30226,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30227,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30228,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30229,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30230,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30231,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30232,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30233,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30234,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30235,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30236,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30237,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30238,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30239,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30240,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30241,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30242,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30243,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30244,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30245,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30246,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30247,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30248,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30249,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30250,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30251,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30252,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30253,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30254,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30255,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30256,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30257,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30258,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30259,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30260,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30261,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30262,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30263,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30264,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30265,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30266,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30267,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30268,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30269,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30270,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30271,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30272,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30273,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30274,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30275,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30276,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30277,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30278,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30279,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30280,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30281,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30282,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30283,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30284,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30285,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30286,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30287,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30288,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30289,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30290,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30291,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30292,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30293,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30294,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30295,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30296,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30297,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30298,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        },
+        {
+          "seed": 30299,
+          "return": 500.0,
+          "steps": 500,
+          "success": true,
+          "collision": false
+        }
+      ]
+    }
+  }
+}

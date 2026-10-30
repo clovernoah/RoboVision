@@ -1,0 +1,16 @@
+{
+  "env": "robotnav",
+  "episodes": 1200,
+  "best_episode": 1100,
+  "best_score": 1054.999,
+  "checkpoint": "runs\\robotnav_vanilla\\best.pt",
+  "last_checkpoint": "runs\\robotnav_vanilla\\last.pt",
+  "metrics_csv": "runs\\robotnav_vanilla\\metrics.csv",
+  "elapsed_s": 33.8,
+  "double_dqn": false,
+  "hidden": [
+    128,
+    128
+  ],
+  "seed": 42
+}

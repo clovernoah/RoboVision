@@ -1,0 +1,137 @@
+[robotnav] ep   10 | train_ret    -9.06 | steps  23 | eps 0.988 | loss 0.1540
+[robotnav] ep   20 | train_ret    -9.84 | steps   9 | eps 0.975 | loss 0.1823
+[robotnav] ep   30 | train_ret   +48.45 | steps  66 | eps 0.962 | loss 0.2651
+[robotnav] ep   40 | train_ret   -11.22 | steps  15 | eps 0.949 | loss 0.1917
+[robotnav] ep   50 | train_ret   -15.17 | steps  40 | eps 0.935 | eval_success 60.00% | eval_ret   +25.54
+[robotnav] ep   60 | train_ret    -7.60 | steps 100 | eps 0.922 | loss 0.3397
+[robotnav] ep   70 | train_ret   -13.20 | steps 100 | eps 0.909 | loss 0.4072
+[robotnav] ep   80 | train_ret   -16.24 | steps  89 | eps 0.896 | loss 0.3720
+[robotnav] ep   90 | train_ret   +51.60 | steps  41 | eps 0.883 | loss 0.4091
+[robotnav] ep  100 | train_ret   -10.17 | steps  60 | eps 0.869 | eval_success 45.00% | eval_ret   +18.58
+[robotnav] ep  110 | train_ret   +56.79 | steps  28 | eps 0.856 | loss 0.3625
+[robotnav] ep  120 | train_ret   -10.00 | steps   1 | eps 0.843 | loss 0.0437
+[robotnav] ep  130 | train_ret   -11.66 | steps  43 | eps 0.830 | loss 0.4444
+[robotnav] ep  140 | train_ret   +48.62 | steps  87 | eps 0.817 | loss 0.4720
+[robotnav] ep  150 | train_ret   +50.46 | steps  39 | eps 0.803 | eval_success 75.00% | eval_ret   +40.60
+[robotnav] ep  160 | train_ret    -9.23 | steps   2 | eps 0.790 | loss 0.1684
+[robotnav] ep  170 | train_ret   -11.37 | steps  60 | eps 0.777 | loss 0.5876
+[robotnav] ep  180 | train_ret    -7.81 | steps   8 | eps 0.764 | loss 0.3835
+[robotnav] ep  190 | train_ret    -5.60 | steps 100 | eps 0.751 | loss 0.6109
+[robotnav] ep  200 | train_ret   +52.19 | steps  48 | eps 0.737 | eval_success 80.00% | eval_ret   +39.88
+[robotnav] ep  210 | train_ret   +53.96 | steps  29 | eps 0.724 | loss 0.7802
+[robotnav] ep  220 | train_ret   +51.78 | steps  75 | eps 0.711 | loss 0.6430
+[robotnav] ep  230 | train_ret   +56.08 | steps  25 | eps 0.698 | loss 0.6697
+[robotnav] ep  240 | train_ret   -13.52 | steps  25 | eps 0.685 | loss 0.5838
+[robotnav] ep  250 | train_ret   +52.87 | steps  12 | eps 0.671 | eval_success 90.00% | eval_ret   +49.14
+[robotnav] ep  260 | train_ret    -1.20 | steps 100 | eps 0.658 | loss 0.7123
+[robotnav] ep  270 | train_ret   +55.71 | steps  24 | eps 0.645 | loss 0.6782
+[robotnav] ep  280 | train_ret   +56.39 | steps  28 | eps 0.632 | loss 0.6282
+[robotnav] ep  290 | train_ret   +52.78 | steps  15 | eps 0.619 | loss 0.5116
+[robotnav] ep  300 | train_ret   +54.44 | steps  13 | eps 0.605 | eval_success 75.00% | eval_ret   +40.20
+[robotnav] ep  310 | train_ret   +52.96 | steps   9 | eps 0.592 | loss 0.7584
+[robotnav] ep  320 | train_ret   +55.25 | steps  26 | eps 0.579 | loss 0.6658
+[robotnav] ep  330 | train_ret   +52.76 | steps  29 | eps 0.566 | loss 0.7490
+[robotnav] ep  340 | train_ret   +54.81 | steps  14 | eps 0.553 | loss 0.9159
+[robotnav] ep  350 | train_ret   -10.83 | steps   2 | eps 0.540 | eval_success 85.00% | eval_ret   +41.43
+[robotnav] ep  360 | train_ret   +53.61 | steps  14 | eps 0.526 | loss 0.6555
+[robotnav] ep  370 | train_ret   +57.86 | steps  19 | eps 0.513 | loss 0.7728
+[robotnav] ep  380 | train_ret    -4.14 | steps  19 | eps 0.500 | loss 0.8184
+[robotnav] ep  390 | train_ret   +56.69 | steps  18 | eps 0.487 | loss 0.6538
+[robotnav] ep  400 | train_ret   +56.10 | steps  11 | eps 0.474 | eval_success 95.00% | eval_ret   +50.76
+[robotnav] ep  410 | train_ret   +51.67 | steps  12 | eps 0.460 | loss 0.9496
+[robotnav] ep  420 | train_ret   +55.15 | steps  16 | eps 0.447 | loss 0.7479
+[robotnav] ep  430 | train_ret   +57.93 | steps  30 | eps 0.434 | loss 0.9215
+[robotnav] ep  440 | train_ret   +54.50 | steps  11 | eps 0.421 | loss 0.8854
+[robotnav] ep  450 | train_ret   +54.62 | steps   7 | eps 0.408 | eval_success 90.00% | eval_ret   +47.68
+[robotnav] ep  460 | train_ret   +55.43 | steps  20 | eps 0.394 | loss 0.9357
+[robotnav] ep  470 | train_ret   +52.90 | steps  11 | eps 0.381 | loss 1.3415
+[robotnav] ep  480 | train_ret   +54.54 | steps  23 | eps 0.368 | loss 1.0348
+[robotnav] ep  490 | train_ret   +55.73 | steps  10 | eps 0.355 | loss 1.0458
+[robotnav] ep  500 | train_ret   +52.84 | steps  13 | eps 0.342 | eval_success 80.00% | eval_ret   +40.83
+[robotnav] ep  510 | train_ret   +54.32 | steps  17 | eps 0.328 | loss 1.0785
+[robotnav] ep  520 | train_ret   +53.79 | steps   8 | eps 0.315 | loss 0.9493
+[robotnav] ep  530 | train_ret   +48.45 | steps  26 | eps 0.302 | loss 0.8483
+[robotnav] ep  540 | train_ret   +53.08 | steps   5 | eps 0.289 | loss 0.9866
+[robotnav] ep  550 | train_ret    -1.53 | steps  12 | eps 0.276 | eval_success 100.00% | eval_ret   +54.99
+[robotnav] ep  560 | train_ret   +54.62 | steps   7 | eps 0.262 | loss 0.7243
+[robotnav] ep  570 | train_ret   +53.02 | steps   7 | eps 0.249 | loss 1.2143
+[robotnav] ep  580 | train_ret   +57.70 | steps  11 | eps 0.236 | loss 0.8366
+[robotnav] ep  590 | train_ret   +59.95 | steps  16 | eps 0.223 | loss 1.0061
+[robotnav] ep  600 | train_ret   +55.39 | steps   8 | eps 0.210 | eval_success 95.00% | eval_ret   +49.48
+[robotnav] ep  610 | train_ret   +56.38 | steps  15 | eps 0.196 | loss 1.0499
+[robotnav] ep  620 | train_ret   +53.85 | steps   6 | eps 0.183 | loss 0.8328
+[robotnav] ep  630 | train_ret   +53.79 | steps   8 | eps 0.170 | loss 0.9987
+[robotnav] ep  640 | train_ret   +53.85 | steps   6 | eps 0.157 | loss 0.8682
+[robotnav] ep  650 | train_ret   +53.73 | steps  10 | eps 0.144 | eval_success 100.00% | eval_ret   +54.99
+[robotnav] ep  660 | train_ret   +56.87 | steps  12 | eps 0.130 | loss 0.7689
+[robotnav] ep  670 | train_ret    -8.02 | steps  15 | eps 0.117 | loss 1.4249
+[robotnav] ep  680 | train_ret   +58.04 | steps  13 | eps 0.104 | loss 1.1970
+[robotnav] ep  690 | train_ret   +53.08 | steps   5 | eps 0.091 | loss 1.1051
+[robotnav] ep  700 | train_ret   +57.64 | steps  13 | eps 0.078 | eval_success 85.00% | eval_ret   +43.67
+[robotnav] ep  710 | train_ret   +56.10 | steps  11 | eps 0.065 | loss 1.3144
+[robotnav] ep  720 | train_ret   +56.93 | steps  10 | eps 0.051 | loss 1.1078
+[robotnav] ep  730 | train_ret   +53.08 | steps   5 | eps 0.050 | loss 1.0512
+[robotnav] ep  740 | train_ret   +49.16 | steps  69 | eps 0.050 | loss 1.3915
+[robotnav] ep  750 | train_ret   +56.93 | steps  10 | eps 0.050 | eval_success 90.00% | eval_ret   +48.78
+[robotnav] ep  760 | train_ret   +55.33 | steps  10 | eps 0.050 | loss 1.5729
+[robotnav] ep  770 | train_ret   +56.16 | steps   9 | eps 0.050 | loss 2.0997
+[robotnav] ep  780 | train_ret   +54.56 | steps   9 | eps 0.050 | loss 1.4844
+[robotnav] ep  790 | train_ret   +54.32 | steps  17 | eps 0.050 | loss 1.4206
+[robotnav] ep  800 | train_ret   +55.68 | steps  25 | eps 0.050 | eval_success 50.00% | eval_ret   +23.32
+[robotnav] ep  810 | train_ret   +54.62 | steps   7 | eps 0.050 | loss 1.1344
+[robotnav] ep  820 | train_ret   +55.21 | steps  14 | eps 0.050 | loss 1.0615
+[robotnav] ep  830 | train_ret    -3.19 | steps  14 | eps 0.050 | loss 0.9887
+[robotnav] ep  840 | train_ret    +2.40 | steps 100 | eps 0.050 | loss 0.7633
+[robotnav] ep  850 | train_ret   +55.39 | steps   8 | eps 0.050 | eval_success 70.00% | eval_ret   +35.80
+[robotnav] ep  860 | train_ret   +53.02 | steps   7 | eps 0.050 | loss 0.6402
+[robotnav] ep  870 | train_ret   +55.39 | steps   8 | eps 0.050 | loss 0.8074
+[robotnav] ep  880 | train_ret   +54.62 | steps   7 | eps 0.050 | loss 0.8652
+[robotnav] ep  890 | train_ret   +54.62 | steps   7 | eps 0.050 | loss 1.0321
+[robotnav] ep  900 | train_ret   +59.24 | steps  13 | eps 0.050 | eval_success 60.00% | eval_ret   +29.96
+[robotnav] ep  910 | train_ret   +61.55 | steps  16 | eps 0.050 | loss 0.9694
+[robotnav] ep  920 | train_ret   +53.02 | steps   7 | eps 0.050 | loss 0.8288
+[robotnav] ep  930 | train_ret   +55.39 | steps   8 | eps 0.050 | loss 0.9123
+[robotnav] ep  940 | train_ret   +58.47 | steps  12 | eps 0.050 | loss 0.9325
+[robotnav] ep  950 | train_ret    -7.69 | steps   4 | eps 0.050 | eval_success 80.00% | eval_ret   +42.58
+[robotnav] ep  960 | train_ret    -6.21 | steps   8 | eps 0.050 | loss 1.0244
+[robotnav] ep  970 | train_ret   +53.85 | steps   6 | eps 0.050 | loss 1.3091
+[robotnav] ep  980 | train_ret   +54.62 | steps   7 | eps 0.050 | loss 1.1775
+[robotnav] ep  990 | train_ret   +57.70 | steps  11 | eps 0.050 | loss 0.5995
+[robotnav] ep 1000 | train_ret   +53.08 | steps   5 | eps 0.050 | eval_success 85.00% | eval_ret   +46.37
+[robotnav] ep 1010 | train_ret   +57.70 | steps  11 | eps 0.050 | loss 0.8403
+[robotnav] ep 1020 | train_ret   +53.85 | steps   6 | eps 0.050 | loss 0.7552
+[robotnav] ep 1030 | train_ret   +53.08 | steps   5 | eps 0.050 | loss 0.3919
+[robotnav] ep 1040 | train_ret   +54.32 | steps  17 | eps 0.050 | loss 0.5463
+[robotnav] ep 1050 | train_ret   +53.02 | steps   7 | eps 0.050 | eval_success 85.00% | eval_ret   +46.26
+[robotnav] ep 1060 | train_ret   +53.08 | steps   5 | eps 0.050 | loss 0.3723
+[robotnav] ep 1070 | train_ret   +53.85 | steps   6 | eps 0.050 | loss 0.6273
+[robotnav] ep 1080 | train_ret   +52.96 | steps   9 | eps 0.050 | loss 0.7286
+[robotnav] ep 1090 | train_ret   +53.85 | steps   6 | eps 0.050 | loss 0.7551
+[robotnav] ep 1100 | train_ret   +53.08 | steps   5 | eps 0.050 | eval_success 90.00% | eval_ret   +49.15
+[robotnav] ep 1110 | train_ret   +59.24 | steps  13 | eps 0.050 | loss 0.9570
+[robotnav] ep 1120 | train_ret   +54.96 | steps   9 | eps 0.050 | loss 0.4556
+[robotnav] ep 1130 | train_ret   +53.85 | steps   6 | eps 0.050 | loss 0.7376
+[robotnav] ep 1140 | train_ret   +56.14 | steps  23 | eps 0.050 | loss 1.0227
+[robotnav] ep 1150 | train_ret   +53.08 | steps   5 | eps 0.050 | eval_success 95.00% | eval_ret   +52.42
+[robotnav] ep 1160 | train_ret   +53.08 | steps   5 | eps 0.050 | loss 0.3596
+[robotnav] ep 1170 | train_ret   +54.62 | steps   7 | eps 0.050 | loss 0.9745
+[robotnav] ep 1180 | train_ret   +56.93 | steps  10 | eps 0.050 | loss 1.1914
+[robotnav] ep 1190 | train_ret    -4.61 | steps   8 | eps 0.050 | loss 0.5447
+[robotnav] ep 1200 | train_ret    -6.15 | steps   6 | eps 0.050 | eval_success 90.00% | eval_ret   +49.64
+{
+  "env": "robotnav",
+  "episodes": 1200,
+  "best_episode": 550,
+  "best_score": 1054.99,
+  "checkpoint": "runs/robotnav/best.pt",
+  "last_checkpoint": "runs/robotnav/last.pt",
+  "metrics_csv": "runs/robotnav/metrics.csv",
+  "elapsed_s": 34.9,
+  "double_dqn": true,
+  "hidden": [
+    128,
+    128
+  ],
+  "seed": 42
+}
+ROBOTNAV_EXIT:0

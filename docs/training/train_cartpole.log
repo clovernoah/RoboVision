@@ -1,0 +1,67 @@
+[cartpole] ep   10 | train_ret   +26.00 | steps  26 | eps 0.972 | loss 0.1027
+[cartpole] ep   20 | train_ret   +15.00 | steps  15 | eps 0.940 | loss 0.0701
+[cartpole] ep   30 | train_ret   +19.00 | steps  19 | eps 0.908 | loss 0.0564
+[cartpole] ep   40 | train_ret   +23.00 | steps  23 | eps 0.877 | loss 0.0780
+[cartpole] ep   50 | train_ret   +30.00 | steps  30 | eps 0.845 | eval_success 0.00% | eval_ret  +143.10
+[cartpole] ep   60 | train_ret   +26.00 | steps  26 | eps 0.813 | loss 0.1028
+[cartpole] ep   70 | train_ret   +11.00 | steps  11 | eps 0.781 | loss 0.1062
+[cartpole] ep   80 | train_ret   +16.00 | steps  16 | eps 0.750 | loss 0.1138
+[cartpole] ep   90 | train_ret   +28.00 | steps  28 | eps 0.718 | loss 0.1390
+[cartpole] ep  100 | train_ret   +20.00 | steps  20 | eps 0.686 | eval_success 0.00% | eval_ret  +179.90
+[cartpole] ep  110 | train_ret   +18.00 | steps  18 | eps 0.655 | loss 0.1881
+[cartpole] ep  120 | train_ret   +43.00 | steps  43 | eps 0.623 | loss 0.2101
+[cartpole] ep  130 | train_ret   +54.00 | steps  54 | eps 0.592 | loss 0.2723
+[cartpole] ep  140 | train_ret   +28.00 | steps  28 | eps 0.560 | loss 0.2199
+[cartpole] ep  150 | train_ret   +10.00 | steps  10 | eps 0.528 | eval_success 0.00% | eval_ret  +114.45
+[cartpole] ep  160 | train_ret   +12.00 | steps  12 | eps 0.497 | loss 0.3166
+[cartpole] ep  170 | train_ret   +14.00 | steps  14 | eps 0.465 | loss 0.2960
+[cartpole] ep  180 | train_ret   +17.00 | steps  17 | eps 0.433 | loss 0.4968
+[cartpole] ep  190 | train_ret   +16.00 | steps  16 | eps 0.402 | loss 0.4863
+[cartpole] ep  200 | train_ret   +17.00 | steps  17 | eps 0.370 | eval_success 0.00% | eval_ret  +114.70
+[cartpole] ep  210 | train_ret   +25.00 | steps  25 | eps 0.338 | loss 0.3273
+[cartpole] ep  220 | train_ret   +35.00 | steps  35 | eps 0.307 | loss 0.3795
+[cartpole] ep  230 | train_ret  +101.00 | steps 101 | eps 0.275 | loss 0.3844
+[cartpole] ep  240 | train_ret   +35.00 | steps  35 | eps 0.243 | loss 0.4181
+[cartpole] ep  250 | train_ret   +13.00 | steps  13 | eps 0.212 | eval_success 0.00% | eval_ret  +102.25
+[cartpole] ep  260 | train_ret  +107.00 | steps 107 | eps 0.180 | loss 0.4943
+[cartpole] ep  270 | train_ret  +110.00 | steps 110 | eps 0.148 | loss 0.4478
+[cartpole] ep  280 | train_ret  +203.00 | steps 203 | eps 0.116 | loss 0.4823
+[cartpole] ep  290 | train_ret  +500.00 | steps 500 | eps 0.085 | loss 0.4902
+[cartpole] ep  300 | train_ret  +500.00 | steps 500 | eps 0.053 | eval_success 0.00% | eval_ret  +116.85
+[cartpole] ep  310 | train_ret  +113.00 | steps 113 | eps 0.050 | loss 0.4689
+[cartpole] ep  320 | train_ret   +44.00 | steps  44 | eps 0.050 | loss 0.3870
+[cartpole] ep  330 | train_ret   +39.00 | steps  39 | eps 0.050 | loss 0.5036
+[cartpole] ep  340 | train_ret   +63.00 | steps  63 | eps 0.050 | loss 0.5001
+[cartpole] ep  350 | train_ret   +13.00 | steps  13 | eps 0.050 | eval_success 0.00% | eval_ret  +226.80
+[cartpole] ep  360 | train_ret   +88.00 | steps  88 | eps 0.050 | loss 0.4718
+[cartpole] ep  370 | train_ret  +222.00 | steps 222 | eps 0.050 | loss 0.5027
+[cartpole] ep  380 | train_ret  +106.00 | steps 106 | eps 0.050 | loss 0.4934
+[cartpole] ep  390 | train_ret  +137.00 | steps 137 | eps 0.050 | loss 0.4274
+[cartpole] ep  400 | train_ret  +146.00 | steps 146 | eps 0.050 | eval_success 0.00% | eval_ret  +142.50
+[cartpole] ep  410 | train_ret   +17.00 | steps  17 | eps 0.050 | loss 0.4360
+[cartpole] ep  420 | train_ret  +500.00 | steps 500 | eps 0.050 | loss 0.4849
+[cartpole] ep  430 | train_ret  +500.00 | steps 500 | eps 0.050 | loss 0.4457
+[cartpole] ep  440 | train_ret  +500.00 | steps 500 | eps 0.050 | loss 0.4941
+[cartpole] ep  450 | train_ret  +174.00 | steps 174 | eps 0.050 | eval_success 0.00% | eval_ret  +173.15
+[cartpole] ep  460 | train_ret  +500.00 | steps 500 | eps 0.050 | loss 0.4897
+[cartpole] ep  470 | train_ret  +482.00 | steps 482 | eps 0.050 | loss 0.3404
+[cartpole] ep  480 | train_ret   +69.00 | steps  69 | eps 0.050 | loss 0.3792
+[cartpole] ep  490 | train_ret  +500.00 | steps 500 | eps 0.050 | loss 0.4045
+[cartpole] ep  500 | train_ret  +500.00 | steps 500 | eps 0.050 | eval_success 100.00% | eval_ret  +500.00
+{
+  "env": "cartpole",
+  "episodes": 500,
+  "best_episode": 500,
+  "best_score": 1500.0,
+  "checkpoint": "runs/cartpole/best.pt",
+  "last_checkpoint": "runs/cartpole/last.pt",
+  "metrics_csv": "runs/cartpole/metrics.csv",
+  "elapsed_s": 77.6,
+  "double_dqn": true,
+  "hidden": [
+    128,
+    128
+  ],
+  "seed": 42
+}
+CARTPOLE_EXIT:0

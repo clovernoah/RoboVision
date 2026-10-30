@@ -29,6 +29,8 @@ __pycache__/
 build/
 dist/
 *.log
+# 训练过程材料中的原始日志需要随文档提交
+!docs/training/*.log
 
 # 编辑器 / 本地工具配置
 .vscode/

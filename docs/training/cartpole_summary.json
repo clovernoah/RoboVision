@@ -1,0 +1,16 @@
+{
+  "env": "cartpole",
+  "episodes": 500,
+  "best_episode": 500,
+  "best_score": 1500.0,
+  "checkpoint": "runs/cartpole/best.pt",
+  "last_checkpoint": "runs/cartpole/last.pt",
+  "metrics_csv": "runs/cartpole/metrics.csv",
+  "elapsed_s": 77.6,
+  "double_dqn": true,
+  "hidden": [
+    128,
+    128
+  ],
+  "seed": 42
+}
